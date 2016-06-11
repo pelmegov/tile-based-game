@@ -14,7 +14,14 @@ public class Tile {
     public static Tile[] tiles = new Tile[256];
     public static Tile grassTile = new GrassTile(0);
     public static Tile grassStoneTile = new GrassStoneTile(1);
-    public static Tile treeTile = new TreeTile(2);
+    public static Tile grassBagsTile = new GrassBagsTile(2);
+    public static Tile treeTile = new TreeTile(3);
+    public static Tile treeChompTile = new TreeChompTile(4);
+    public static Tile treeDeadTile = new TreeDeadTile(5);
+    public static Tile roadHTile = new RoadHTile(6);
+    public static Tile roadVTile = new RoadVTile(7);
+    public static Tile roadVHTile = new RoadVHTile(8);
+
 
     // class
 
