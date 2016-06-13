@@ -2,6 +2,7 @@ package ru.pelmegov.tilebasedgame;
 
 import ru.pelmegov.tilebasedgame.display.Display;
 import ru.pelmegov.tilebasedgame.gfx.Assets;
+import ru.pelmegov.tilebasedgame.gfx.GameCamera;
 import ru.pelmegov.tilebasedgame.input.KeyManager;
 import ru.pelmegov.tilebasedgame.states.GameState;
 import ru.pelmegov.tilebasedgame.states.MenuState;
@@ -17,7 +18,7 @@ import java.awt.image.BufferStrategy;
 public class Game implements Runnable {
 
     public String title;
-    int width, height;
+    private int width, height;
     private Display display;
     private Thread thread;
 
@@ -30,6 +31,9 @@ public class Game implements Runnable {
 
     // input
     private KeyManager keyManager;
+
+    // camera
+    private GameCamera gameCamera;
 
     private boolean running = false;
 
@@ -45,6 +49,7 @@ public class Game implements Runnable {
         display.getFrame().addKeyListener(keyManager);
         Assets.init();
 
+        gameCamera = new GameCamera(this, 0, 0);
         gameState = new GameState(this);
         menuState = new MenuState(this);
         State.setState(gameState);
@@ -121,6 +126,18 @@ public class Game implements Runnable {
 
     public KeyManager getKeyManager() {
         return keyManager;
+    }
+
+    public GameCamera getGameCamera() {
+        return gameCamera;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
+    public int getHeight() {
+        return height;
     }
 
     public synchronized void start() {
