@@ -2,10 +2,6 @@ package ru.pelmegov.tilebasedgame.gfx;
 
 import java.awt.image.BufferedImage;
 
-/**
- * @author modkomi
- * @since 09.06.16
- */
 public class SpriteSheet {
 
     private BufferedImage sheet;

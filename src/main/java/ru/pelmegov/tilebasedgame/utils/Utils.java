@@ -4,10 +4,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-/**
- * @author modkomi
- * @since 11.06.16
- */
 public class Utils {
 
     public static String loadFileAsString(String path) {
@@ -17,7 +13,7 @@ public class Utils {
             BufferedReader reader = new BufferedReader(new FileReader(path));
             String line;
             while ((line = reader.readLine()) != null) {
-                builder.append(line + "\n");
+                builder.append(line).append("\n");
             }
             reader.close();
         } catch (IOException e) {

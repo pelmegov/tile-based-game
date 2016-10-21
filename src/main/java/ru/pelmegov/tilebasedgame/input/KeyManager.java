@@ -3,10 +3,6 @@ package ru.pelmegov.tilebasedgame.input;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
-/**
- * @author modkomi
- * @since 09.06.16
- */
 public class KeyManager implements KeyListener {
 
     private boolean[] keys;

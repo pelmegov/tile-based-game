@@ -3,10 +3,6 @@ package ru.pelmegov.tilebasedgame.tiles;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 
-/**
- * @author modkomi
- * @since 11.06.16
- */
 public class Tile {
 
     // static stuff here

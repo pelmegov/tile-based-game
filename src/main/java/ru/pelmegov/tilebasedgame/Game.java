@@ -11,10 +11,6 @@ import ru.pelmegov.tilebasedgame.states.State;
 import java.awt.*;
 import java.awt.image.BufferStrategy;
 
-/**
- * @author modkomi
- * @since 09.06.16
- */
 public class Game implements Runnable {
 
     public String title;

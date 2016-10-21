@@ -4,10 +4,6 @@ import ru.pelmegov.tilebasedgame.Game;
 
 import java.awt.*;
 
-/**
- * @author modkomi
- * @since 09.06.16
- */
 public abstract class State {
     private static State currentState = null;
 

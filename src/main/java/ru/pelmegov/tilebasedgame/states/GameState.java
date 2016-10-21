@@ -7,10 +7,6 @@ import ru.pelmegov.tilebasedgame.worlds.World;
 
 import java.awt.*;
 
-/**
- * @author modkomi
- * @since 09.06.16
- */
 public class GameState extends State {
 
     private Player player;

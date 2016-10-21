@@ -3,10 +3,6 @@ package ru.pelmegov.tilebasedgame.gfx;
 import ru.pelmegov.tilebasedgame.Game;
 import ru.pelmegov.tilebasedgame.entities.Entity;
 
-/**
- * @author modkomi
- * @since 13.06.16
- */
 public class GameCamera {
 
     private Game game;

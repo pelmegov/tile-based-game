@@ -3,10 +3,6 @@ package ru.pelmegov.tilebasedgame.entities.creatures;
 import ru.pelmegov.tilebasedgame.Game;
 import ru.pelmegov.tilebasedgame.entities.Entity;
 
-/**
- * @author modkomi
- * @since 09.06.16
- */
 public abstract class Creature extends Entity {
 
     public static final int DEFAULT_HEALTH = 10;

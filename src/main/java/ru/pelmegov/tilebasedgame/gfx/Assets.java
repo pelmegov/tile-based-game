@@ -2,10 +2,6 @@ package ru.pelmegov.tilebasedgame.gfx;
 
 import java.awt.image.BufferedImage;
 
-/**
- * @author modkomi
- * @since 09.06.16
- */
 public class Assets {
 
     private static final int width = 32, height = 32;

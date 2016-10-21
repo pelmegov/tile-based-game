@@ -6,10 +6,6 @@ import ru.pelmegov.tilebasedgame.utils.Utils;
 
 import java.awt.*;
 
-/**
- * @author modkomi
- * @since 11.06.16
- */
 public class World {
 
     private Game game;

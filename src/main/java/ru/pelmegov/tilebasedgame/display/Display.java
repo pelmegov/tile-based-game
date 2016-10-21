@@ -3,10 +3,6 @@ package ru.pelmegov.tilebasedgame.display;
 import javax.swing.*;
 import java.awt.*;
 
-/**
- * @author modkomi
- * @since 09.06.16
- */
 public class Display {
 
     private JFrame frame;

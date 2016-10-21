@@ -5,10 +5,6 @@ import ru.pelmegov.tilebasedgame.gfx.Assets;
 
 import java.awt.*;
 
-/**
- * @author modkomi
- * @since 09.06.16
- */
 public class MenuState extends State {
 
     public MenuState(Game game) {
